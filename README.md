@@ -11,7 +11,7 @@ India Today is a 24-hour English language television network based in Noida, Utt
 First you clone or download this project from here.
 
 
-https://github.com/Himanshu-t-y-a-g-i/abrupt-kitty-9277
+live Site :- <a href='https://indiatoday-in-clone.vercel.app/'>Live Project<a/>
 
 
 And then open it in VS Code and then open page with live server.
