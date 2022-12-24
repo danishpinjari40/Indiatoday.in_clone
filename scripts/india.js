@@ -23,7 +23,7 @@ let url = `https://gnews.io/api/v4/top-headlines?topic=&token=${api_key}&lang=en
 let container = document.getElementById(`main_news`);
 
 getData(url).then((res) => {
-  console.log(res);
+  // console.log(res);
   appendData(res, container);
 });
 
