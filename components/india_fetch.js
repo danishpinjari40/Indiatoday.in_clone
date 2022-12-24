@@ -196,10 +196,10 @@ let getData = async (url) => {
 
 // for showing data on page
 let appendData = (data, cont) => {
-  data.forEach(({ urlToImage, title, content, description,url }) => {
+  data.forEach(({ image, title, content, description,url }) => {
     // content part
     let img = document.createElement("img");
-    img.src = urlToImage;
+    img.src = image;
     img.addEventListener("click",()=>{
       sendToDetails();
   })
@@ -246,7 +246,7 @@ let appendData = (data, cont) => {
     cont.append(sub_news);
 
     function sendToDetails(){
-      let image = urlToImage;
+      let image = image;
       let Title = title;
       let Description = description;
       let source = url;
